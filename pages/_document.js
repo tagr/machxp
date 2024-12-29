@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'machxp - a Sitecore blog by Andy Merhaut',
-    description: 'Andy Merhaut is a software consultant in the United States',
+    title: 'machxp - a blog by Andy Merhaut',
+    description: 'Andy Merhaut is a software engineer in the United States',
     image: '/images/andy-merhaut.png'
   }
 
@@ -17,7 +17,6 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@foobarjs" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
